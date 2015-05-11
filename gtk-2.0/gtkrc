@@ -478,6 +478,12 @@ style "bold-panel-item" {
 widget "*Panel*MenuBar*" style "bold-panel-item"
 widget "*gimmie*" style "bold-panel-item"
 
+style "tasklist-padding" {
+	xthickness = 12
+}
+
+widget "*tasklist*" style "tasklist-padding"
+
 # widget_class "*Mail*" style "evolve-panel" # Disabled to fix Evolution bug
 # class "*Panel*" style "evolve-panel" # Disabled to fix bug
 
